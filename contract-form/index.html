@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="form">
+      <h1>Contact Us</h1>
+      <form action="" function="./index.html">
+        <div class="name-fields">
+          <div>
+            <label for="firstname-text">First Name *</label><br />
+            <input
+              type="text"
+              id="firstname-text"
+              placeholder="ex. Ana"
+              style="width: 250px"
+            /><br />
+          </div>
+          <div>
+            <label for="lastname-text">Last Name *</label><br />
+            <input
+              type="text"
+              id="lastname-text"
+              placeholder="ex. Raducan"
+              style="width: 250px"
+            /><br/>
+          </div>
+        </div>
+        <div>
+          <label for="email-text">Email Address *</label><br />
+          <input
+            id="email-text"
+            placeholder="ex. ana.raducan@mail.com"
+            class="width-input"
+            type="text"
+          /><br/>
+        </div>
+        <label for="query-text">Query Type *</label>
+        <div class="query-type">
+          <div class="general-enquiry">
+            <label for="enquiry-text"
+              ><input
+                id="enquiry-text"
+                type="radio"
+                style="margin-left: 20px"
+              />General Enquiry</label
+            ><br/>
+          </div>
+          <div class="support-request">
+            <label for="request-text"
+              ><input id="request-text" type="radio" />Support Request</label
+            ><br/>
+          </div>
+        </div>
+        <div>
+          <label for="message-text" style="margin-bottom: 20px">Message *</label
+          ><br/>
+          <input
+            id="message-text"
+            placeholder="Please write a message"
+            style="width: 555px; height: 50px"
+            type="text"
+          /><br/>
+        </div>
+        <label>
+          <input type="checkbox" />
+          I consent to being contacted by the team 
+          </label><br/>
+        <button type="submit"  function="./index.html">Submit</button>
+      </form>
+    </div>
+  </body>
+</html>
